@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TanulasEllenorzoKviz"
         mc:Ignorable="d"
-        Title="Tanulás Ellenörző Kvíz" Height="420" Width="600">
+        Title="Tanulás Ellenörző Kvíz" Height="420" Width="600" ResizeMode="CanMinimize">
     <Grid>
-        
+        <Label Content="Tantárgyak:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="135,10,0,0" />
+        <ComboBox x:Name="tantargy" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="202,10,0,0" Width="152"/>
+        <Label Content="Témakörök:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="353,10,0,0"/>
+        <ComboBox x:Name="temakorok" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="423,10,0,0" Width="152"/>
+        <Button x:Name="inditas" Content="Teszt Elindítása" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Height="22" Width="120"/>
+        <Label x:Name="kerdes" BorderThickness="1" BorderBrush="Black" Content=" " FontStretch="Normal" Background="LightGray"  Margin="10,52,21,260"/>
+        <Button x:Name="valasz1" Content=" " BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,165,0,0"  Height="65" Width="275"/>
+        <Button x:Name="valasz2" Content=" " BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="304,165,0,0" Height="65" Width="275"/>
+        <Button x:Name="valasz3" Content=" " BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,253,0,0" Height="65" Width="275"/>
+        <Button x:Name="valasz4" Content=" " BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="304,253,0,0" Height="65" Width="275"/>
+        <Button x:Name="prev_Btn" Content="Hátra" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="10,335,0,0" Width="50" Height="30" FontSize="18"/>
+        <Button x:Name="next_Btn" Content="Előre" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="529,335,0,0" Width="50" Height="30" FontSize="18"/>
+        <Label x:Name="holjarok" Content="0/10" HorizontalAlignment="Left" Margin="271,333,0,0" FontSize="18" VerticalAlignment="Top"/>
     </Grid>
 </Window>

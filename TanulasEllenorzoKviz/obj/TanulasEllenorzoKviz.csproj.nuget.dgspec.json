@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Komplex prog\\TanulasEllenorzoKviz\\TanulasEllenorzoKviz.csproj": {}
+    "D:\\Komplex prog\\11B_BerkesKristof_TanulasEllenorzoKviz\\TanulasEllenorzoKviz\\TanulasEllenorzoKviz.csproj": {}
   },
   "projects": {
-    "D:\\Komplex prog\\TanulasEllenorzoKviz\\TanulasEllenorzoKviz.csproj": {
+    "D:\\Komplex prog\\11B_BerkesKristof_TanulasEllenorzoKviz\\TanulasEllenorzoKviz\\TanulasEllenorzoKviz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Komplex prog\\TanulasEllenorzoKviz\\TanulasEllenorzoKviz.csproj",
+        "projectUniqueName": "D:\\Komplex prog\\11B_BerkesKristof_TanulasEllenorzoKviz\\TanulasEllenorzoKviz\\TanulasEllenorzoKviz.csproj",
         "projectName": "TanulasEllenorzoKviz",
-        "projectPath": "D:\\Komplex prog\\TanulasEllenorzoKviz\\TanulasEllenorzoKviz.csproj",
+        "projectPath": "D:\\Komplex prog\\11B_BerkesKristof_TanulasEllenorzoKviz\\TanulasEllenorzoKviz\\TanulasEllenorzoKviz.csproj",
         "packagesPath": "C:\\Users\\jkacs\\.nuget\\packages\\",
-        "outputPath": "D:\\Komplex prog\\TanulasEllenorzoKviz\\obj\\",
+        "outputPath": "D:\\Komplex prog\\11B_BerkesKristof_TanulasEllenorzoKviz\\TanulasEllenorzoKviz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jkacs\\AppData\\Roaming\\NuGet\\NuGet.Config",
