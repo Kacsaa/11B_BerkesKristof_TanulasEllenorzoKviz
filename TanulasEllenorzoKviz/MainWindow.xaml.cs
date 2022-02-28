@@ -22,7 +22,6 @@ namespace TanulasEllenorzoKviz
     public partial class MainWindow : Window
     {
         List<string> tantargyak = new List<string>();
-        List<string> temakorok;
 
         public MainWindow()
         {
